@@ -3,7 +3,7 @@ Create a simple HTML-based authentication system with 5 pages and submit the cod
 ## Requirements
 Create the following 5 HTML pages with basic redirections:
 ### Page 1: Login Page (login.html)
-• Username input field
+1. Username input field
 • Password input field
 • Login button (redirects to Dashboard)
 • "Forgot Password?" link (redirects to Forgot Password page)
