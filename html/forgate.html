@@ -4,27 +4,45 @@
         <title>
             Forget password
         </title>
+        <style>
+            body {
+                background-color: #f0f8ff;
+                font-family: Arial, sans-serif;
+            }
+            div {
+                
+                background-color: white;
+                margin: 100px auto;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                margin-left: 550px;
+                margin-right: 550px;
+            }
+            </style>
     </head>
     <body>
-        <form>
-            <h1>Forget password</h1>
-            <br>
-            <label for="email" name="mail">Email Address</label>
-            <br>
-            <input type="email" id="email" name="mail" placeholder="Enter your email address" required>
-            <br>
-            <br>
-            <label for="new_pass" name="new_pass">New Password</label>
-            <br>
-            <input type="password" id="new_pass" name="new_password" placeholder="Enter new password" required>
-            <br>
-            <br>
-            <label for="con_password" name="con_password">Confirm Password</label>
-            <br>
-            <input type="password" id="con_password" name="con_password" placeholder="Confirm new password" required>
-            <br>
-            <br>
-            <input type="submit" value="Reset Password" formaction="login page.html">
-        </form>
+        <div>
+            <form>
+                <h1 style="text-align: center;">Forget password</h1>
+                <br>
+                <label for="email" name="mail">Email Address</label>
+                <br>
+                <input type="email" id="email" name="mail" placeholder="Enter your email address" required>
+                <br>
+                <br>
+                <label for="new_pass" name="new_pass">New Password</label>
+                <br>
+                <input type="password" id="new_pass" name="new_password" placeholder="Enter new password" required>
+                <br>
+                <br>
+                <label for="con_password" name="con_password">Confirm Password</label>
+                <br>
+                <input type="password" id="con_password" name="con_password" placeholder="Confirm new password" required>
+                <br>
+                <br>
+                <input type="submit" value="Reset Password" formaction="login page.html">
+            </form>
+            </div>
     </body>
 </html>
