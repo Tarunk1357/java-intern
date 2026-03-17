@@ -42,24 +42,29 @@ Apply Bootstrap styling to make your pages look professional:
 3. Style the Login button using Bootstrap button classes
 4. Make links visually appealing
 5. Center the login card on the page
+![Screenshot](screenshots/login.png)
 ### Page 2: Registration Page
 1. Use Bootstrap card component for the registration form
 2. Style all input fields with Bootstrap form classes
 3. Add Bootstrap validation states (optional)
 4. Ensure proper spacing using Bootstrap utilities
+![Screenshot](screenshots/rgister.png)
 ### Page 3: Forgot Password Page
 1. Use Bootstrap card component
 2. Style the email input field and button
 3. Add proper layout and spacing
+![Screenshot](screenshots/forgot.png)
 ### Page 4: Reset Password Page
 1. Use Bootstrap card component
 2. Add password visibility toggle icons
 3. Style the Update Password button
+![Screenshot](screenshots/reset.png)
 ### Page 5: Dashboard Page
 1. Add a Bootstrap navbar at the top
 2. Use Bootstrap container for the welcome message
 3. Style the Logout button
 4. Add a professional dashboard layout
+![Screenshot](screenshots/dash.png)
 ## Task 3: Add Custom CSS
 Create a separate styles.css file and add:
 ### Required Custom Styling:
